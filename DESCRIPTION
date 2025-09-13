@@ -1,11 +1,10 @@
 Package: advr.03
-Title: What the Package Does (One Line, Title Case)
+Title: Euclidean and Dijkstra's Algorithms
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Finn", "Beckmann", , "finbe486@student.liu.se", role = c("aut", "cre"))
+Description: Implementation of Euclidean algorithm to find greatest common divisor and Dijkstra Algorithm to find the shortest paths in a graph from an initial node.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
