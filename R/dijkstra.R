@@ -2,8 +2,6 @@
 
 #' Validate inputs for the dijkstra function
 #'
-#' @importFrom stats setNames
-#'
 #' @param graph Graph to be traversed
 #' @param init_node Initial node to start from
 #' @return error message in case input is not valid, empty string otherwise
@@ -42,6 +40,8 @@ validate_input_dijkstra <- function(graph, init_node) {
 #' Implementation of the Dijkstra's algorithm
 #' to find the shortest path between nodes
 #' Wikipedia: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+#'
+#' @importFrom stats setNames
 #'
 #' @param graph Graph to be traversed
 #' @param init_node Initial node to start from
