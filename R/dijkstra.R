@@ -45,7 +45,7 @@ validate_input_dijkstra <- function(graph, init_node) {
 #'
 #' @param graph Graph to be traversed
 #' @param init_node Initial node to start from
-#' @return list of shortest distances to nodes in given graph
+#' @return numeric vector of shortest distances to nodes in given graph
 #' @export
 dijkstra <- function(graph, init_node) {
   validation_msg <- validate_input_dijkstra(graph, init_node)
