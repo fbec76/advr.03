@@ -62,7 +62,7 @@ dijkstra <- function(graph, init_node) {
     if (min(unvisited_distances) == Inf) {
       break
     }
-    curr_node <- unvisited[which.min(unvisited_distances)[1]]
+    curr_node <- unvisited[which.min(unvisited_distances)]
     neighbors_idxs <- which(graph$v1 == curr_node)
     for (n in neighbors_idxs) {
       neighbor <- graph$v2[n]
