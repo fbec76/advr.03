@@ -14,7 +14,7 @@ dijkstra(graph, init_node)
 \item{init_node}{Initial node to start from}
 }
 \value{
-list of shortest distances to nodes in given graph
+numeric vector of shortest distances to nodes in given graph
 }
 \description{
 Implementation of the Dijkstra's algorithm
