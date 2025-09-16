@@ -1,2 +1,5 @@
 ^LICENSE\.md$
 .idea
+^\.github$
+^.*\.Rproj$
+^\.Rproj\.user$
