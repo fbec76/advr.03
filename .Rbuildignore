@@ -1,5 +1,5 @@
 ^LICENSE\.md$
-.idea
+^.idea$
 ^\.github$
 ^.*\.Rproj$
 ^\.Rproj\.user$
