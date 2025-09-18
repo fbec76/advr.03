@@ -6,7 +6,7 @@
 #' @param y numeric scalar or integer
 #' @return greatest common divisor of x and y
 #' @export
-euclidean <- function(x, y) {
+euclid <- function(x, y) {
 
   stopifnot(is.numeric(x) || is.integer(x))
   stopifnot(is.numeric(y) || is.integer(y))
