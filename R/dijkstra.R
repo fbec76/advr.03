@@ -1,5 +1,3 @@
-# 1.1.2
-
 #' Validate inputs for the dijkstra function
 #'
 #' @param graph Graph to be traversed
@@ -39,7 +37,7 @@ validate_input_dijkstra <- function(graph, init_node) {
 
 #' Implementation of the Dijkstra's algorithm
 #' to find the shortest path between nodes
-#' Wikipedia: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+#' @references https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 #'
 #' @importFrom stats setNames
 #'

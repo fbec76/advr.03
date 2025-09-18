@@ -3,8 +3,7 @@
 \name{dijkstra}
 \alias{dijkstra}
 \title{Implementation of the Dijkstra's algorithm
-to find the shortest path between nodes
-Wikipedia: https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
+to find the shortest path between nodes}
 \usage{
 dijkstra(graph, init_node)
 }
@@ -19,5 +18,7 @@ numeric vector of shortest distances to nodes in given graph
 \description{
 Implementation of the Dijkstra's algorithm
 to find the shortest path between nodes
-Wikipedia: https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm
+}
+\references{
+https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm
 }

@@ -1,26 +1,29 @@
 #' Implementation of the Euclidean algorithm
 #' to find the greatest common divisor of two numbers
-#' Wikipedia: //en.wikipedia.org/wiki/Euclidean algorithm
+#' @references https://en.wikipedia.org/wiki/Euclidean_algorithm
 #'
 #' @param x numeric scalar or integer
 #' @param y numeric scalar or integer
 #' @return greatest common divisor of x and y
 #' @export
-euclidean <- function(x, y){
-  
+euclidean <- function(x, y) {
+
   stopifnot(is.numeric(x) || is.integer(x))
   stopifnot(is.numeric(y) || is.integer(y))
-  
-  repeat{
-    if(x == y){
-      cdg <- x
+
+  x <- abs(x)
+  y <- abs(y)
+
+  repeat {
+    if (x == y) {
+      gcd <- x
       break
     }
-    if(x > y){
-      x <- x-y
+    if (x > y) {
+      x <- x - y
     } else {
-      y <- y-x
+      y <- y - x
     }
   }
-  return(cdg)
+  gcd
 }
