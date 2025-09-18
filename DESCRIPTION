@@ -1,6 +1,6 @@
 Package: advr.03
 Title: Euclidean and Dijkstra's Algorithms
-Version: 0.0.0.9000
+Version: 1.0
 Authors@R: 
     person("Finn", "Beckmann", , "finbe486@student.liu.se", role = c("aut", "cre"))
     person("Max", "Goldbeck-Löwe", , "maxgo900@student.liu.se", role = c("aut", "cre"))
