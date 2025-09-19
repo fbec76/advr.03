@@ -1,5 +1,5 @@
 # advr.03
-![GitHub Actions Status](https://github.com/fbec76/advr.03/blob/main/.github/workflows/R-CMD-check.yaml/badge.svg)
+![GitHub Actions Status](https://github.com/fbec76/advr.03/actions/workflows/R-CMD-check.yaml/badge.svg)
 
 STIMA 2025 Repository for Lab03 of 732A94 "Advanced Programming in R"  Link to Course Information: https://www.ida.liu.se/~732A94/info/courseinfo.en.shtml
 
@@ -7,5 +7,3 @@ STIMA 2025 Repository for Lab03 of 732A94 "Advanced Programming in R"  Link to C
 ```R
 devtools::install_github("https://github.com/fbec76/advr.03")
 ```
-
-
